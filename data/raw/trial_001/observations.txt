@@ -1,0 +1,27 @@
+Trial 001 Observations - BASELINE (No Network Shaping)
+======================================================
+
+PHASE 1 (0-45 seconds)
+- Video started at 480p, quickly ramped up
+- Quality increased to 720p around 15 seconds
+- Reached 1080p by approximately 45 seconds
+- Buffer built up smoothly, no issues
+
+PHASE 2 (45-90 seconds)
+- Quality remained at 1080p throughout
+- No network shaping applied, so no degradation expected
+- Buffer stayed healthy around 33-36 seconds
+- Playback was completely smooth
+
+PHASE 3 (90-135 seconds)
+- Continued stable 1080p playback
+- Buffer level remained constant
+- No quality switches observed
+- Video ended normally
+
+SUMMARY
+- Total quality switches: 2 (480p->720p->1080p during startup)
+- Stalls/rebuffering: 0
+- Maximum quality reached: 1080p (5891 kbps)
+- Minimum buffer: ~31 seconds
+- Notes: Clean baseline run, YouTube quickly optimized to highest quality

@@ -1,0 +1,17 @@
+time_seconds,resolution_width,resolution_height,bitrate_kbps,notes
+0,854,480,1102,startup
+5,854,480,1923,initial
+14,1280,720,3456,quality_increase
+26,1280,720,4278,stable
+40,1920,1080,4891,reached_1080p
+45,1920,1080,4756,bw_drop_moment
+50,1280,720,3123,quick_adaptation
+56,854,480,1678,dropping_fast
+63,854,480,1234,low_bandwidth
+72,640,360,923,minimum_reached
+82,640,360,876,holding_low
+90,640,360,945,recovery_begins
+98,854,480,1567,climbing_up
+107,854,480,2012,steady_increase
+119,1280,720,3123,720p_restored
+135,1280,720,3567,end_partial_recovery

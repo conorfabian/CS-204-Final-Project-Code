@@ -1,0 +1,15 @@
+time_seconds,resolution_width,resolution_height,bitrate_kbps,notes
+0,640,360,892,startup
+7,854,480,1834,ramping
+18,1280,720,3721,quality_up
+32,1280,720,4156,stable_phase1
+45,1280,720,4089,bandwidth_drop_applied
+52,1280,720,3245,starting_to_adapt
+58,854,480,1567,quality_switch_down
+67,854,480,1123,adapting_to_low_bw
+78,640,360,847,lowest_quality
+90,640,360,912,recovery_starts
+97,854,480,1456,quality_recovering
+108,854,480,2134,buffer_rebuilding
+118,1280,720,3287,back_to_720p
+135,1280,720,3891,end_recovered

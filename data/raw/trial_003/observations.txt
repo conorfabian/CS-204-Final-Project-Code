@@ -1,0 +1,35 @@
+Trial 003 Observations - EXPERIMENTAL (With Network Shaping)
+============================================================
+
+PHASE 1 (0-45 seconds) - 20 Mbps bandwidth
+- Started at 360p, ramped to 720p by 18 seconds
+- Quality stabilized at 720p around 4000+ kbps
+- Buffer built up to about 28 seconds
+- Normal startup behavior, similar to baselines
+
+PHASE 2 (45-90 seconds) - 1.5 Mbps bandwidth DROP
+- Network change applied at T = 45
+- YouTube continued at 720p for about 7 seconds (using buffer)
+- First quality drop around T = 52 (bitrate decreased)
+- Switched to 480p at T = 58
+- Continued dropping to 360p around T = 78
+- Buffer drained from 28s down to about 8s
+- Quality reached lowest point ~847 kbps at 360p
+
+PHASE 3 (90-135 seconds) - 20 Mbps RECOVERY
+- Network restored at T = 90
+- YouTube was conservative - didn't immediately jump to high quality
+- Gradual increase: 360p -> 480p (T = 97) -> 720p (T = 118)
+- Buffer started recovering around T = 97
+- Ended at 720p (3891 kbps), didn't return to 1080p
+- Buffer recovered to ~29 seconds by end
+
+SUMMARY
+- Total quality switches: 6
+- Stalls/rebuffering: 0 (buffer got low but never empty)
+- Maximum quality: 720p at 4156 kbps
+- Minimum quality: 360p at 847 kbps
+- Adaptation delay: ~13 seconds after bandwidth drop
+- Notes: Clear ABR adaptation visible. YouTube used buffer to delay
+         quality drops. Recovery was gradual rather than aggressive.
+         Did not return to peak quality within observation window.

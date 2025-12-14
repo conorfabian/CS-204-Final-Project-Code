@@ -1,0 +1,17 @@
+time_seconds,buffer_seconds,notes
+0,1.9,startup
+5,4.6,initial
+14,11.2,building
+26,19.8,growing
+40,27.3,approaching_peak
+45,29.1,network_change
+50,25.4,starting_drain
+56,20.7,draining_fast
+63,15.3,dropping
+72,10.1,low
+82,7.4,very_low
+90,6.8,minimum
+98,9.2,slow_recovery
+107,13.7,building
+119,19.4,improving
+135,26.3,end_partial

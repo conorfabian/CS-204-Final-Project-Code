@@ -1,0 +1,13 @@
+time_seconds,buffer_seconds,notes
+0,1.8,startup
+6,5.4,initial
+12,9.1,building
+22,16.3,growing
+35,24.8,healthy
+45,29.7,stable
+58,33.4,high
+72,31.9,minor_fluctuation
+85,34.6,recovered
+100,36.2,peak
+115,35.1,stable
+135,33.8,end_baseline

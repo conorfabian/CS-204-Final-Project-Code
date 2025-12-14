@@ -1,0 +1,13 @@
+time_seconds,resolution_width,resolution_height,bitrate_kbps,notes
+0,640,360,987,startup_slower
+6,854,480,1876,initial_ramp
+12,854,480,2534,buffering
+22,1280,720,3967,quality_up
+35,1280,720,4289,stable
+45,1920,1080,5102,high_quality
+58,1920,1080,5678,stable
+72,1920,1080,5423,minor_drop
+85,1920,1080,5567,recovered
+100,1920,1080,5812,stable
+115,1920,1080,5634,stable
+135,1920,1080,5521,end_baseline

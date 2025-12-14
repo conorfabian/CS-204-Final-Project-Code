@@ -1,0 +1,12 @@
+time_seconds,buffer_seconds,notes
+0,2.3,startup
+8,8.7,building
+15,14.2,growing
+28,22.6,healthy
+45,31.4,stable_high
+60,35.8,plateau
+75,33.2,slight_drain
+90,36.1,recovered
+105,34.7,stable
+120,35.9,stable
+135,34.2,end_healthy
